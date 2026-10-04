@@ -1,0 +1,23 @@
+---
+title: "LLM 笔记"
+toc: false
+listing:
+  contents: notes
+  type: default
+  sort: "date desc"
+  categories: true
+  fields: [date, title, description, categories]
+  date-format: "YYYY-MM-DD"
+  filter-ui: true
+  sort-ui: false
+  page-size: 12
+---
+
+<section class="notebook-intro">
+<div class="notebook-label">THE LLM NOTEBOOK</div>
+<h1>把读过的、试过的，<br>慢慢写下来。</h1>
+<p>关于大语言模型的阅读、实验与思考。<br>从一篇论文、一个问题，到一次值得记住的尝试。</p>
+<div class="notebook-topics"><span>LLM</span><span>Agents</span><span>RAG</span><span>论文阅读</span><span>实验记录</span></div>
+</section>
+
+## 全部笔记 {.notes-heading}

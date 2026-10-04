@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - notes/**/*.qmd
+    - notes/**/*.md
+
+lang: zh
+website:
+  title: "LLM 笔记"
+  description: "记录大语言模型的阅读、实验与思考。"
+  site-url: "https://bbfss.github.io/llm-notes/"
+  repo-url: "https://github.com/bbfss/llm-notes"
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: 全部笔记
+    right:
+      - icon: github
+        href: "https://github.com/bbfss/llm-notes"
+        aria-label: GitHub 仓库
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: true
+  page-footer: "LLM 笔记 · 阅读 / 实验 / 思考"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: 本文目录
+    code-copy: true
+    mainfont: "Segoe UI, Microsoft YaHei, sans-serif"
+    date-format: "YYYY-MM-DD"
+
+execute:
+  enabled: false
